@@ -1,0 +1,219 @@
+#main
+{
+    font-family:   impact;
+    font-size: 30px;
+}
+
+._2nd
+{
+    font-family: sans-serif;
+}
+._2nd+._2nd
+{
+    font-family: monospace;
+}
+span+span+span+span+span+span
+{
+    background-color: blueviolet;
+}
+span+span+span+span+span
+{
+    background-color: aquamarine;
+}
+span+span+span+span
+{
+    background-color: brown;
+}
+span+span+span
+{
+    background-color: rgb(102, 78, 69);
+}
+span+span
+{
+    background-color: darkgoldenrod;
+}
+span
+{
+    background-color: dodgerblue;
+}
+#s1
+{
+    background-color: aquamarine;
+}
+#s2
+{
+    background-color: rgb(255, 127, 197);
+}
+#s3
+{
+    background-color: rgb(31, 84, 66);
+}
+#s4
+{
+    background-color: rgb(147, 140, 13);
+}
+#s5
+{
+    background-color: rgb(166, 0, 169);
+}
+#font-weight
+{
+    font-weight: bold;
+}
+#font-weight+p{
+    font-weight: bolder;
+}
+#font-weight+p+p
+{
+    font-weight: lighter;
+}
+
+#font-style
+{
+    font-style: normal;
+}
+#font-style+p
+{
+    font-style: italic;
+}
+#font-style+p+p
+{
+    font-style: oblique;
+}
+
+#font-variant
+{
+    font-variant: normal;
+}
+#font-variant+p
+{
+    font-variant: small-caps;
+}
+
+#first-div
+{
+    text-align: right;
+    text-decoration: underline;
+}
+#first-div>div
+{
+    text-align: center;
+}
+#first-div>div>div
+{
+    text-align: left;
+}
+#first-div>div>div>div
+{
+    text-align: justify;
+}
+#first-div>div>div>div>div
+{
+    text-align: end;
+}
+#first-div>div>div>div>div>div
+{
+    text-align: start;
+}
+
+#decoration
+{
+    text-decoration: underline;
+}
+#decoration+p
+{
+    text-decoration: overline;
+}
+#decoration+p+p
+{
+    text-decoration: line-through;
+}
+#decoration+p+p+p
+{
+    text-decoration: none;
+}
+
+#indent
+{
+    text-indent: 35px;
+}
+
+#shadow
+{
+    font-family: cursive;
+    font-size: 30px;
+    text-shadow: 5px 2px 3px black;
+}
+
+#transform
+{
+    text-transform: none;
+}
+#transform+p
+{
+    text-transform: capitalize;
+}
+#transform+p+p
+{
+    text-transform: uppercase;
+}
+#transform+p+p+p
+{
+    text-transform: lowercase;
+}
+
+#l-spacing
+{
+    letter-spacing: 5px;
+}
+
+#w-spacing
+{
+    word-spacing: 8px;
+}
+
+#white-space
+{
+    white-space: normal;
+}
+#white-space+p
+{
+    white-space: pre;
+}
+#white-space+p+p
+{
+    white-space: nowrap;
+}
+
+#direction
+{
+    direction: rtl;
+}
+#direction+p
+{
+    direction: ltr;
+}
+#direction+p+p
+{
+    direction: inherit;
+}
+
+#pseudo-class:first-letter
+{
+    font-size: 40px;
+}
+#pseudo-class+p::first-line
+{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* #first-child
+{
+    color: rgb(30, 0, 255);
+} */
